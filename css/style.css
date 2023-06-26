@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+
+
+
+}
+
+.navlist {
+    width: 70%;
+
+    display: flex;
+    align-items: center;
+    padding: 1px 4px;
+
+}
+
+.navlist a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 22px;
+
+}
+
+.navlist li a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 15px 17px;
+
+}
+
+.rightnav {
+
+    width: 30%;
+    text-align: right;
+    display: flex;
+    padding: 23px 24px;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30%;
+    border: 2px solid wheat;
+    border-radius: 27px;
+    margin: 8px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 18px;
+    border: 4px solid black;
+    border-radius: 14px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+
+
+}
+
+.boxmain {
+    height: 80%;
+    margin: auto;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstS {
+    margin: initial;
+    height: 80%;
+
+    text-align: center;
+}
+
+.firsth {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.secondh {
+    width: 30%;
+}
+
+.secondh img {
+    width: 76%;
+    padding: 1px 2px;
+    border: 3px solid #161515;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.textbig {
+    font-size: 35px;
+    color: #daa9ad;
+    font-weight: bold;
+}
+
+.textsmall {
+    font-size: 22px;
+    padding: 5px 3px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+
+}
+
+.btn {
+    background: none;
+    color: white;
+    padding: 8px 16px;
+    margin: 7px 4px;
+
+
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    background: navajowhite;
+}
+
+.btn-sm {
+    padding: 2px 4px;
+    vertical-align: middle;
+    font-size: 15px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+}
+
+.sec {
+    background: #b5b5c5;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.para {
+    padding: 0px 65px;
+    font-weight: bold;
+}
+
+.left {
+    flex-direction: row-reverse;
+}
+
+.sectionsub {
+    font-family: 'Bacasime Antique', serif;
+}
+
+.thumbnail img {
+    width: 220px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.sectiontag {
+    padding: 16px 5px;
+    color: #5b0c97;
+}
+
+.contact {
+    background-color: #b5b5c5;
+    height: 811px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+
+}
+
+.textc {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.form {
+    max-width: 64%;
+    margin: 25px auto;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px 8px;
+    font-size: 20px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 10px 5px;
+}
+
+.dark {
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #161515;
+    border: 3px solid black;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.forminp {
+    width: 100%;
+    padding: 12px 8px;
+    font-size: 20px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin: 10px 5px;
+
+}
+
+.textf {
+    color: wheat;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: rgb(232, 225, 225);
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width:1140px) {
+    .navlist {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 448px;
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+    }
+
+    #search {
+        width: 100%;
+    }
+    .burger{
+        display: block;
+        
+    }
+    .h-nav-resp{
+        height: 372px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .boxmain{
+        flex-direction:column-reverse ;
+        width: 100%;
+    }
+    .sec{
+        flex-direction: column-reverse;
+
+    }
+    .textsmall{
+        text-align: center;
+    }
+    .textbig{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .para{
+        padding: 0;
+    }
+    
+
+}
